@@ -125,8 +125,12 @@ body{
 .notificacion{
     position:relative;
     top:10px;
-    width: 3%;
+    width: 25px;
     height:25px;
     border-radius: 50%;
     background-color:#fdd800;
+}
+
+.Descripcion_Detalles{
+    border:5px solid red;
 }
