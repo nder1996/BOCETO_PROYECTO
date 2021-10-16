@@ -14,7 +14,7 @@ body{
 .Marco_Secundario{
     border:5px solid yellow;
     background-color:#000000 !important;
-    width: 90%;
+    width: 70%;
     height: 1500px;
     margin: auto;
     padding: 20px;
@@ -132,5 +132,37 @@ body{
 }
 
 .Descripcion_Detalles{
+   /* border:5px solid red;*/
+    color:white;
+}
+
+.ver_mas{
     border:5px solid red;
+    color:white;
+    font-size:25px;
+    height:120px;
+    overflow:hidden;
+}
+
+.Letra{
+    font-size:30px;
+}
+
+.button_detalle_mas{
+    background-color:transparent;
+    color:#0c84f7 !important;
+    border:none;
+}
+
+.button_detalle_menos{
+    border:none;
+    background-color:transparent;
+    color:#0c84f7 !important;
+    display:none;
+}
+
+.button_general{
+    width: 100%;
+    display:inline;
+   border:5px solid yellow;
 }
