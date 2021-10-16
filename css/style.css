@@ -14,8 +14,8 @@ body{
 .Marco_Secundario{
     border:5px solid yellow;
     background-color:#000000 !important;
-    width: 70%;
-    height: 1000px;
+    width: 90%;
+    height: 1500px;
     margin: auto;
     padding: 20px;
     
@@ -57,11 +57,6 @@ body{
     
 }
 
-
-.home_header{
-    /*border:5px solid yellow;*/
-}
-
 .home_header section{
     /*border:5px solid purple;*/
     margin: auto;
@@ -70,35 +65,65 @@ body{
 
 #color_1{
     background-color : #ff9f0a !important;
-    height:200px;
+    height:170px;
+    z-index: 2;
 }
 
 #color_2{
-    height:200px;
+    height:170px;
+    z-index: 2;
 }
 
 .Logo_Perfil{
-    border:5px solid yellow;
+    border:5px solid red;
+    height:100%;
 }
 
+.figure_img{
+    position:relative;
+    /*border:5px solid purple;*/
+    width: 30%;
+    
+}
+
+
+.figure_img img{
+   /* border:5px solid purple;*/
+    border-radius: 50%;
+    height: 450px;
+}
+
+.segundo_logo{
+    position:absolute;
+    top:60%;
+    left:75%;
+    width: 24% !important;
+    height:150px !important;
+}
+
+
+/*
 .Logo_Perfil .img_logo{
     position:absolute;
     border:5px solid purple;
     width: 99%;
-    height:400px;
+    height:100%;
 
 }
 
-.Logo_Perfil .img_logo img{
-    width:25%;
-    height:300px;
-    box-shadow: 0px 0px 5px 5px black;
-    border-radius:150px;
-    margin-top:45px;
+.img_logo{
+    box-shadow: 0px 0px 5px 5px purple;
+    /*box-shadow: 0px 0px 5px 5px black;
+    position:relative;
+    width:25% !important;
+    height:300px !important;
+    border-radius:150px;*/
 }
 
+/*
 .segundo_logo{
     position:relative;
+    box-shadow: 0px 0px 5px 5px black;
     top:25%;
     left:-7%;
     width:100px !important;
