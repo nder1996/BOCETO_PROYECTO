@@ -6,7 +6,7 @@ body{
 
 
 .Marco_Principal{
-    border:5px solid red;
+   /* border:5px solid red;*/
     width: 100%;
    
 }
@@ -32,6 +32,7 @@ body{
    /* border:5px solid red;*/
    background-color:transparent ;
     margin: auto;
+    
 }
 
 .Tabs_Content{
@@ -64,72 +65,68 @@ body{
 }
 
 #color_1{
+    position:relative;
     background-color : #ff9f0a !important;
-    height:170px;
+    height:270px;
     z-index: 2;
 }
 
 #color_2{
-    height:170px;
+    height:250px;
     z-index: 2;
 }
 
 .Logo_Perfil{
-    border:5px solid red;
-    height:100%;
-}
-
-.figure_img{
-    position:relative;
-    /*border:5px solid purple;*/
-    width: 30%;
+   /* border:5px solid white;*/
+    height:460px !important;
     
 }
 
-
-.figure_img img{
+.figure_img{
+    position:absolute;
    /* border:5px solid purple;*/
+    width: 100%;
+    z-index: 5;
+}
+
+
+.figure_img .primer_logo{
     border-radius: 50%;
+    width: 30%;
     height: 450px;
-}
-
-.segundo_logo{
-    position:absolute;
-    top:60%;
-    left:75%;
-    width: 24% !important;
-    height:150px !important;
-}
-
-
-/*
-.Logo_Perfil .img_logo{
-    position:absolute;
-    border:5px solid purple;
-    width: 99%;
-    height:100%;
-
-}
-
-.img_logo{
-    box-shadow: 0px 0px 5px 5px purple;
-    /*box-shadow: 0px 0px 5px 5px black;
-    position:relative;
-    width:25% !important;
-    height:300px !important;
-    border-radius:150px;*/
-}
-
-/*
-.segundo_logo{
-    position:relative;
     box-shadow: 0px 0px 5px 5px black;
-    top:25%;
-    left:-7%;
-    width:100px !important;
-    height:100px !important;
-    border-radius:50px;
+}
+
+.segundo_logo{
+    position:absolute;
+    top:67%;
+    left:60%;
+    border-radius: 50%;
+    width: 7% !important;
+    height: 150px !important;
+    box-shadow: 0px 0px 5px 5px black;
 }
 
 
+.Descripcion_Nombre{
+    /*border:5px solid white;*/
+    width: 100%;
+}
 
+.Descripcion_Nombre section{
+    /*border:5px solid red;*/
+    width: 50%;
+}
+
+.Descripcion_Nombre strong{
+    font-size: 25px;
+}
+
+.notificacion{
+    position:relative;
+    top:10px;
+    width: 3%;
+    height:25px;
+    border-radius: 50%;
+    background-color:#fdd800;
+}
