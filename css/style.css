@@ -166,3 +166,7 @@ body{
     display:inline;
    border:5px solid yellow;
 }
+
+.text-button{
+    color:white;
+}
