@@ -27,32 +27,8 @@ $(document).ready(function () {
         });
     })
 
-
-
-   /* $('.cuadro_info').append("");*/
 })
 
 
-
-
-
-    /*
-    if (clic == 0) {
-        $('.ver_mas').css({
-            "height": "200px"
-        });
-        console.log("click_0 : ", clic)
-        clic = 1;
-
-    }
-    if (clic == 1) {
-        $('.ver_mas').css({
-            "height": "90px"
-        });
-        console.log("click_1 : ", clic)
-        clic = 0;
-    }
-
-*/
 
 
