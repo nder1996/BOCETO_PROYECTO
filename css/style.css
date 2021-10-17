@@ -2,29 +2,37 @@
 body{
     /*background-color:#d9d9d9;*/
     color:white;
+    background-color:#230021  !important;
+   
 }
 
 
 .Marco_Principal{
-   /* border:5px solid red;*/
+    /*border:5px solid red;*/
     width: 100%;
+    height: 100%;
+
+}
+
+.card{
+   background-color:#230021  !important;
+   height: 100%;
    
 }
 
 .Marco_Secundario{
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,1); 
    /* border:5px solid yellow;*/
     background-color:#000000 !important;
-    width: 70%;
-    height: 1500px;
+    width: 55%;
+    height: 900px;
     margin: auto;
-    padding: 20px;
-    
 }
 
 .Tabs_Principal{
     position:relative;
-    top:85%;
-    border:5px solid black;
+    top:92%;
+    width: 102% !important;
     background-color: #121212;
 }
 
@@ -42,7 +50,7 @@ body{
 }
 
 .Tabs_Principal i{
-    font-size:45px;
+    font-size:30px;
     color:#727272 !important;
 }
 
@@ -67,18 +75,18 @@ body{
 #color_1{
     position:relative;
     background-color : #ff9f0a !important;
-    height:270px;
+    height:150px;
     z-index: 2;
 }
 
 #color_2{
-    height:250px;
+    height:150px;
     z-index: 2;
 }
 
 .Logo_Perfil{
-   /* border:5px solid white;*/
-    height:460px !important;
+   /* border:5px solid white;
+   /* height:260px !important;*/
     
 }
 
@@ -92,18 +100,18 @@ body{
 
 .figure_img .primer_logo{
     border-radius: 50%;
-    width: 30%;
-    height: 450px;
+    width: 25%;
+    height: 240px;
     box-shadow: 0px 0px 5px 5px black;
 }
 
 .segundo_logo{
     position:absolute;
-    top:67%;
-    left:60%;
+    top:52%;
+    left:57%;
     border-radius: 50%;
-    width: 7% !important;
-    height: 150px !important;
+    width: 9% !important;
+    height: 110px !important;
     box-shadow: 0px 0px 5px 5px black;
 }
 
@@ -139,13 +147,13 @@ body{
 .ver_mas{
     /*border:5px solid red;*/
     color:white;
-    font-size:25px;
-    height:120px;
+    font-size:17px;
+    height:90px;
     overflow:hidden;
 }
 
 .Letra{
-    font-size:30px;
+    font-size:20px;
 }
 
 .button_detalle_mas button{
@@ -188,22 +196,25 @@ body{
 }
 
 .icons_contact i{
-    font-size:90px;
+    font-size:50px;
 }
 
 .Principal_Kits{
     /*border:5px solid red;*/
+    padding-top: 20px;
     color:white;
-    font-size:70px;
+    font-size:40px;
 }
 
 .Principal_Kits section{
     padding-left: 25px;
+    margin-bottom: 25px;
 }
 
 .Principal_Kits i{
     position:relative;
     margin-left: 25px;
+    margin-top:35px;
     color:#29a5be;
-    font-size:90px;
+    font-size:70px;
 }
