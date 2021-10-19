@@ -186,6 +186,23 @@ a{
     color:#727272 !important;
 }
 
+@media (max-width: 991.98px) { 
+
+    body{
+        border:5px solid red;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 @media (prefers-color-scheme: dark) {
@@ -195,7 +212,10 @@ a{
     }
 
     .card{
-        border:1px solid #0c84f7;
+       /* border:1px solid #0c84f7;*/
+        
+            box-shadow: 0px 0px 5px 5px #0c84f7 !important; 
+        
     }
 
 }
@@ -205,5 +225,7 @@ a{
         height: 100%;
         background-color: white !important;
     }
+
+   
 
 }
