@@ -16,109 +16,79 @@
 
 <body>
     <div class="Marco_Principal">
-        <div class="card ">
+        <!--
+        <p class="text-center" >
+            <button type="button" class="Oscuro btn btn-primary mt-5">Modo Oscuro</button>
+            <button type="button" class="Claro btn btn-primary mt-5">Modo Claro</button>
+        </p>
+    -->
+        <div class="Cuerpo card mt-5 mb-5">
             <div class="card-body">
-                <div class="Marco_Secundario mb-3">
-                    <ul class="Tabs_Principal nav nav-pills  card-footer" id="pills-tab" role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true"><i class="fas fa-home"></i> <br><span>Home</span></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false"><i class="fas fa-list-ul"></i><br><span>KITs</span></button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                                aria-selected="false"><i class="far fa-user"></i> <br> <span>Profile</span> </button>
-                        </li>
-                    </ul>
-                    <div class="Tabs_Content tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                            aria-labelledby="pills-home-tab">
-                            <div class="Principal_Home">
-                                <div class="home_header  d-flex justify-content-between mb-1 mt-5">
-                                    <section class="text-start Letra" style="color:#0c84f7 !important"> <strong>
-                                        </strong>
-                                        < Back</section> <section class="text-center Letra">name
-                                    </section>
-                                    <section class="text-end Letra" style="color:#0c84f7 !important">Edit&nbsp;
-                                    </section>
-                                </div>
-                                <div class="Logo_Perfil">
-                                    <figure class="figure_img figure text-center mt-5">
-                                        <img class="segundo_logo" src="img/Gato.jpg" alt="">
-                                        <img class="primer_logo" src="img/Persona_1.jpg" class="figure-img img-fluid"
-                                            alt="...">
-                                    </figure>
-                                    <section class="Color_logo" id="color_1"></section>
-                                    <section class="Color_logo" id="color_2"></section>
+                <div class="Principal_Home">
+                    <div class="home_header  d-flex justify-content-between mb-1 mt-5">
+                            <section class="text-center Letra">name
+                        </section>
+                    </div>
+                    <div class="Logo_Perfil">
+                        <figure class="figure_img figure text-center mt-5">
+                            <img class="segundo_logo" src="img/Gato.jpg" alt="">
+                            <img class="primer_logo" src="img/Persona_1.jpg" class="figure-img img-fluid"
+                                alt="...">
+                        </figure>
+                        <section class="Color_logo" id="color_1"></section>
+                        <section class="Color_logo" id="color_2"></section>
 
-                                </div>
-                                
-                                <div class="Descripcion_Nombre d-flex container-fluid mb-2">
-                                    <section class="text-start d-flex"><strong>Name</strong>&nbsp;&nbsp;&nbsp;&nbsp;<p
-                                            class="notificacion"></p>
-                                    </section>
-                                    <section class="text-end"><strong>29/09/21</strong></section>
-                                </div> <br>
-                                <div class="Descripcion_Detalles">
-                                    <section class="d-flex justify-content-between">
-                                        <p>CTO | KIT</p>
-                                        <p>Jerusalem , IL</p>
-                                    </section>
-                                    <section class="ver_mas mt-3 text-center">
-                                        <section class="cuadro_info text-center">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium,
-                                            obcaecati asperiores optio rerum blanditiis sequi quas ipsa corrupti minima, sit reiciendis
-                                            laboriom
-                                            <p class="text-button text-center button_detalle_mas"><button >more +</button></p>
-                                            <br>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                            Dolores delectus corrupti sit. Soluta distinctio doloribus rem repellat vero
-                                            illo laudantium explicabo suscipit quos tempora? Hic nesciunt dolore optio rem atque!
-                                            <p class="text-center button_detalle_menos"><button>more -</button></p>
-                                            
-                                        </section>
-                                    </section>
-                                </div>
-                                <div class="contact_info d-flex justify-content-between">
-                                    <section >Contact Information <br>
-                                    <section class="mt-3" style="color:#0c84f7 !important;"><i class="far fa-envelope"></i>alon02st@gmail.com</section>
-                                    <section class="text-capitalize mt-3" style="color:#0c84f7 !important;"><i class="fas fa-link"></i>tap to open website</section>
-                                    </section>
-                                    <section class="text-end" style="color:#0c84f7 !important;">Add to Contacts</section>
-                                </div> <hr>
-                                <div class="icons_contact d-flex justify-content-center text-center">
-                                    <section><i class="far fa-list-alt mb-3"></i> <br>Remark </section>
-                                    <section><i class="fas fa-bell mb-3"></i><br>Reminder</section>
-                                    <section><i class="far fa-calendar-alt mb-3"></i> <br>Meeting </section>
-                                    <section><i class="fas fa-camera mb-3"></i> <br>Photo </section>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
-                            aria-labelledby="pills-profile-tab">
-                            <div class="Principal_Kits">
-                                <section>
-                                    <p>Notes :</p>
-                                    <p><i class="fas fa-calendar-plus"></i></p>
-                                </section>
-                                <section>
-                                    <p>Photo :</p>
-                                    <p><i class="fas fa-camera"></i></p>
-                                </section>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
-                            aria-labelledby="pills-contact-tab">3
-                        </div>
+                    </div>
+                    <div class="Descripcion_Nombre d-flex container-fluid mb-2">
+                        <section class="text-start d-flex Letra"><strong>Name</strong>
+                        </section>
+                       
+                    
+                       
+                    </div> <br>
+                    <div class="Descripcion_Detalles">
+                        <section class="d-flex justify-content-between Letra">
+                            <p>CTO | KIT</p>
+                            <p>Jerusalem , IL</p>
+                        </section>
+                    </div>
+                    <div class="contact_info d-flex justify-content-between">
+                        <section >Contact Information <br>
+                        <section class="mt-3" style="color:#0c84f7 !important;"><i class="far fa-envelope"></i>alon02st@gmail.com</section>
+                        <section class="text-capitalize mt-3" style="color:#0c84f7 !important;"><i class="fas fa-link"></i>tap to open website</section>
+                        </section>
+                        <section class="text-end" style="color:#0c84f7 !important;">Add to Contacts</section>
+                    </div> 
+                    <section class="ver_mas mt-3 text-center mb-3">
+                        <section class="cuadro_info text-start Letra">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium,
+                            obcaecati asperiores optio rerum blanditiis sequi quas ipsa corrupti minima, sit reiciendis
+                            laboriom fkgfd gdfkjjdfg fdgdf fdgdsfgdfg <button class="text-button text-end button_detalle_mas">more +</button>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Dolores delectus corrupti sit. Soluta distinctio doloribus rem repellat vero
+                            illo laudantium explicabo suscipit quos tempora? Hic nesciunt dolore 
+                            <p class="text-start button_detalle_menos"><button>more -</button></p>
+                        </section>
+                    </section><hr>
+                    <div class="icons_contact d-flex justify-content-center text-center">
+                        <section><i class="far fa-list-alt mb-3"></i> <br>Remark </section>
+                        <section><i class="fas fa-bell mb-3"></i><br>Reminder</section>
+                        <section><i class="far fa-calendar-alt mb-3"></i> <br>Meeting </section>
+                        <section><i class="fas fa-camera mb-3"></i> <br>Photo </section>
+                    </div>
+                    <div class="Principal_Kits">
+                        <section>
+                            <p class="Letra">Notes :</p>
+                            <p><i class="fas fa-calendar-plus"></i></p>
+                        </section>
+                        <section>
+                            <p class="Letra">Photo :</p>
+                            <p><i class="fas fa-camera"></i></p>
+                        </section>
                     </div>
                 </div>
             </div>
+       
         </div>
 
     </div>
