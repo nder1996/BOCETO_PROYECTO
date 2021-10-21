@@ -139,7 +139,7 @@
     .Principal_Kits i{
         /*border:5px solid yellow;*/
         font-size: 4vw;
-        color:#0c84f7;
+        color:#25a7bf;
         margin-left: 2%;
         margin-top: 2vw;
         /*margin-top: 2%;*/
@@ -290,7 +290,7 @@
     .Principal_Kits i{
         /*border:5px solid yellow;*/
         font-size: 6vw;
-        color:#0c84f7;
+        color:#25a7bf;
         margin-left: 2%;
         margin-top: 2vw;
         /*margin-top: 2%;*/
@@ -364,38 +364,36 @@
     #color_1 {
         position: relative;
         background-color: #ff9f0a !important;
-        height: 190px !important;
+        height: 180px !important;
         z-index: 2;
     }
 
     #color_2 {
         position: relative;
-        height: 170px !important;
+        height: 130px !important;
         z-index: 2;
         margin-bottom:15px;
     }
 
     .Descripcion_Ubicacion {
-        font-size: 2.5vw;
+        font-size: 4vw;
        /* border: 5px solid red;*/
         width: 100%;
         color:#7c7c7e;
     }
 
-
-
     .contact_info p {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
         width: 50%;
     }
 
     .info {
-        /*border:5px solid red;*/
-        font-size: 2.5vw;
+       /* border:5px solid red;*/
+        font-size: 4vw;
     }
 
     .Descripcion{
-        font-size: 2.5vw;
+        font-size: 4vw;
         width: 100%;
         text-align: justify;
         padding:10px !important;
@@ -413,22 +411,29 @@
         /*border:5px solid yellow;*/
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
         margin-top:2vw;
     }
 
     .icons_contact section{
         /*border:5px solid red;*/
-        margin-left:10%;
+        position:relative;
+        right:4%;
+        margin-left:20% !important;
+        margin-top:10%;
         color:#0c84f7;
     }
 
     .icons_contact i{
-        font-size: 6vw;
+        position:relative;
+        /*border:5px solid red;*/
+        right:5%;
+        font-size: 11vw;
         
     }
 
     .icons_contact p{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .Principal_Kits{
@@ -436,15 +441,15 @@
     }
 
     .Principal_Kits p{
-        /*border:5px solid white;*/
-        font-size: 3.5vw !important;
+       /* border:5px solid white;*/
+        font-size: 5vw !important;
         margin-top: 2.5vw;
     }
 
     .Principal_Kits i{
         /*border:5px solid yellow;*/
-        font-size: 6vw;
-        color:#0c84f7;
+        font-size: 10vw;
+        color:#25a7bf;
         margin-left: 2%;
         margin-top: 2vw;
         /*margin-top: 2%;*/
