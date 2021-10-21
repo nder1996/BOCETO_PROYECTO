@@ -153,119 +153,150 @@
 
 @media (max-width: 991.98px) {
 
-    body{
+    body {
+        color: white;
         border:15px solid yellow;
     }
 
-    .Titulo {
-        font-size: 6.5vw !important;
+    .Marco_Principal {
+        width: 100%;
+        height: 100%;
     }
 
-    .Logo_Perfil {
+    .card {
         height: 100%;
-        margin-bottom: 15px !important;
+        box-shadow: 10px 10px 10px 10px black;
+        background-color: #000000 !important;
+        width: 85%;
+        height: 100%;
+        padding: 25px;
+    }
+
+    .Titulo {
+        width: 100%;
+        font-size: 3vw !important;
+    }
+
+
+    .Logo_Perfil {
+       /* border:5px solid red;*/
+        height: 100%;
     }
 
     .figure_img {
-        /* border:5px solid white;*/
         position: absolute;
+       /* border:5px solid yellow;*/
         width: 88% !important;
         z-index: 5;
-        left: 6%;
+        left:6%;
     }
 
     .segundo_logo {
         position: absolute;
-        width: 25%;
+        width: 15%;
         border-radius: 50%;
-        height: 180px;
+        height: 150px;
         z-index: 10;
-        left: 65%;
-        top: 52% !important;
+        left: 62%;
+        top: 55%;
     }
 
     .primer_logo {
-        width: 70%;
-        height: 486px;
+        width: 45%;
+        height: 300px;
         border-radius: 50%;
-
     }
 
     #color_1 {
         position: relative;
         background-color: #ff9f0a !important;
-        height: 280px !important;
+        height: 190px !important;
         z-index: 2;
     }
 
     #color_2 {
         position: relative;
-        height: 250px !important;
+        height: 170px !important;
         z-index: 2;
-    }
-
-    .card {
-        width: 90% !important;
-        box-shadow: 0px 6px 32px 3px rgba(0, 0, 0, 0.5);
+        margin-bottom:15px;
     }
 
     .Descripcion_Ubicacion {
-        /*border:5px solid white;*/
-        font-size: 4vw !important;
+        font-size: 2.5vw;
+       /* border: 5px solid red;*/
+        width: 100%;
+        color:#7c7c7e;
     }
 
-    .contact_info {
-        font-size: 5vw !important;
-    }
 
+
+    .contact_info p {
+        font-size: 2.5vw;
+        width: 50%;
+    }
 
     .info {
-        font-size: 5vw !important;
-    }
-
-    .Descripcion {
-        text-align: justify;
-        font-size: 5vw !important;
-
-    }
-
-    .icons_contact {
-        height: 100%;
-        overflow: hidden;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .icons_contact section {
-        /*  border:5px solid red;*/
-        position: relative;
-        font-size: 7vw !important;
-        right: 5%;
-        margin-top: 10%;
-        width: 40%;
-    }
-
-    .icons_contact i {
-        font-size: 10vw !important;
-    }
-
-    .icons_contact p {
-        font-size: 5vw !important;
-    }
-
-    .Principal_Kits {
-        /* border:5px solid white;*/
-    }
-
-    .Principal_Kits p {
-        font-size: 6vw !important;
-    }
-
-    .Principal_Kits i {
         /*border:5px solid red;*/
-        font-size: 10vw !important;
+        font-size: 2.5vw;
     }
+
+    .Descripcion{
+        font-size: 2.5vw;
+        width: 100%;
+        text-align: justify;
+        padding:10px !important;
+    }
+
+    .Descripcion button{
+        background-color:transparent;
+        border:none;
+        text-decoration: none;
+        outline:none;
+        color:#0c84f7;
+    }
+
+    .icons_contact{
+        /*border:5px solid yellow;*/
+        display: flex;
+        justify-content: center;
+        margin-top:2vw;
+    }
+
+    .icons_contact section{
+        /*border:5px solid red;*/
+        margin-left:10%;
+        color:#0c84f7;
+    }
+
+    .icons_contact i{
+        font-size: 6vw;
+        
+    }
+
+    .icons_contact p{
+        font-size: 3vw;
+    }
+
+    .Principal_Kits{
+       /* border:5px solid red;*/
+    }
+
+    .Principal_Kits p{
+        /*border:5px solid white;*/
+        font-size: 3.5vw !important;
+        margin-top: 2.5vw;
+    }
+
+    .Principal_Kits i{
+        /*border:5px solid yellow;*/
+        font-size: 6vw;
+        color:#0c84f7;
+        margin-left: 2%;
+        margin-top: 2vw;
+        /*margin-top: 2%;*/
+    }
+
+   
 
 
 
@@ -277,19 +308,41 @@
 @media (max-width: 450px) {
 
     body {
-        border: 15px solid red;
+        color: white;
+        border:15px solid red;
     }
 
+    .Marco_Principal {
+        width: 100%;
+        height: 100%;
+    }
+
+    .card {
+        height: 100%;
+        box-shadow: 10px 10px 10px 10px black;
+        background-color: #000000 !important;
+        width: 85%;
+        height: 100%;
+        padding: 25px;
+    }
+
+    .Titulo {
+        width: 100%;
+        font-size: 5vw !important;
+    }
+
+
     .Logo_Perfil {
-        /*border:5px solid red;*/
+       /* border:5px solid red;*/
         height: 100%;
     }
 
     .figure_img {
         position: absolute;
-        /*border:5px solid yellow;*/
+       /* border:5px solid yellow;*/
         width: 88% !important;
         z-index: 5;
+        left:6%;
     }
 
     .segundo_logo {
@@ -298,20 +351,20 @@
         border-radius: 50%;
         height: 100px;
         z-index: 10;
-        left: 72%;
-        top: 45%;
+        left: 68%;
+        top: 58%;
     }
 
     .primer_logo {
-        width: 80%;
-        height: 270px;
+        width: 70%;
+        height: 300px;
         border-radius: 50%;
     }
 
     #color_1 {
         position: relative;
         background-color: #ff9f0a !important;
-        height: 170px !important;
+        height: 190px !important;
         z-index: 2;
     }
 
@@ -319,49 +372,85 @@
         position: relative;
         height: 170px !important;
         z-index: 2;
-    }
-
-    .card {
-        width: 90% !important;
-        box-shadow: 0px 6px 32px 3px rgba(0, 0, 0, 0.5);
+        margin-bottom:15px;
     }
 
     .Descripcion_Ubicacion {
-        font-size: 4vw !important;
+        font-size: 2.5vw;
+       /* border: 5px solid red;*/
+        width: 100%;
+        color:#7c7c7e;
     }
 
-    .contact_info {
-        font-size: 5vw !important;
-    }
 
+
+    .contact_info p {
+        font-size: 2.5vw;
+        width: 50%;
+    }
 
     .info {
-        font-size: 5vw !important;
+        /*border:5px solid red;*/
+        font-size: 2.5vw;
     }
 
-    .Descripcion {
+    .Descripcion{
+        font-size: 2.5vw;
+        width: 100%;
         text-align: justify;
-        font-size: 5vw !important;
+        padding:10px !important;
     }
 
-    .icons_contact {
-        height: 100%;
-        overflow: hidden;
+    .Descripcion button{
+        background-color:transparent;
+        border:none;
+        text-decoration: none;
+        outline:none;
+        color:#0c84f7;
+    }
+
+    .icons_contact{
+        /*border:5px solid yellow;*/
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
+        margin-top:2vw;
     }
 
-    .icons_contact section {
-        position: relative;
-        font-size: 5vw !important;
-        right: 5%;
-        margin-top: 10%;
-        width: 30%;
+    .icons_contact section{
+        /*border:5px solid red;*/
+        margin-left:10%;
+        color:#0c84f7;
     }
 
+    .icons_contact i{
+        font-size: 6vw;
+        
+    }
 
+    .icons_contact p{
+        font-size: 3vw;
+    }
 
+    .Principal_Kits{
+       /* border:5px solid red;*/
+    }
+
+    .Principal_Kits p{
+        /*border:5px solid white;*/
+        font-size: 3.5vw !important;
+        margin-top: 2.5vw;
+    }
+
+    .Principal_Kits i{
+        /*border:5px solid yellow;*/
+        font-size: 6vw;
+        color:#0c84f7;
+        margin-left: 2%;
+        margin-top: 2vw;
+        /*margin-top: 2%;*/
+    }
+
+   
 
 
 
